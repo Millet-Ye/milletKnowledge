@@ -5,15 +5,16 @@ npm run build # 生成静态文件
 cd docs/.vuepress/dist # 进入生成的文件夹
 
 # deploy to github
-echo 'Ostask.github.io/daodao-knowledge' > CNAME
+Millet-Ye/milletKnowledge
+echo 'Millet-Ye.github.io/milletKnowledge' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:Ostask/daodao-knowledge.git
+  githubUrl=git@github.com:Millet-Ye/milletKnowledge.git
 else
   msg='来自github action的自动部署'
-  githubUrl=https://Ostask:${GITHUB_TOKEN}@github.com/Ostask/daodao-knowledge.git
-  git config --global user.name "Ostask"
-  git config --global user.email "502724802@qq.com"
+  githubUrl=https://Millet-Ye:${GITHUB_TOKEN}@github.com/Millet-Ye/milletKnowledge.git
+  git config --global user.name "Millet-Ye"
+  git config --global user.email "776199910@qq.com"
 fi
 git init
 git add -A
