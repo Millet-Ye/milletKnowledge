@@ -5,7 +5,7 @@ npm run build # 生成静态文件
 cd docs/.vuepress/dist # 进入生成的文件夹
 
 # deploy to github
-Millet-Ye/milletKnowledge
+# Millet-Ye/milletKnowledge
 echo 'Millet-Ye.github.io/milletKnowledge' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
