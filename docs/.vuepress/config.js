@@ -68,7 +68,7 @@ module.exports = {
                 ]
             },
             { text: '白帽子',link:'/pages/1c4297/'},
-            { text: '随记', link: '/pages/9d1205/' },
+            { text: '随记', link: '/pages/f65218/' },
             {text: '索引',
                 items: [
                     {text:'归档',link:'/archives/'},
