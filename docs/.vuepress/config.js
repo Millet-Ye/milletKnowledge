@@ -21,7 +21,7 @@ module.exports = {
     // 开发：
     // base:'/',
     // 打包
-     base:'./',
+     base:'/milletKnowledge/',
     dest: './dist',
     description: '立志不再懒懒散散的小前端的知识库',
     markdown:{
