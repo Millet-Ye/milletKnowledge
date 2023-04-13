@@ -21,9 +21,8 @@ module.exports = {
     // 开发：
     // base:'/',
     // 打包
-     base:'/milletKnowledge/',
-    // dest: './dist',
-
+     base:'./',
+     dest: './docs/.vuepress/dist',
     description: '立志不再懒懒散散的小前端的知识库',
     markdown:{
         lineNumbers:true,
