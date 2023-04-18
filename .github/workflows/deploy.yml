@@ -31,6 +31,8 @@ jobs:
 
       - name: Build project
         run: |
+          sudo chown -R $USER:$USER .
+          sudo chmod -R 777 .
           npm run build
           mkdir dist_temp
           mv dist/* dist_temp
